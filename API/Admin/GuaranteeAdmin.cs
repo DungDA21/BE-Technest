@@ -10,7 +10,7 @@ using WebsiteComputer.Models.Policy;
 namespace API.Admin
 {
     [ApiController]
-    [Route("api/Admin/Discount")]
+    [Route("api/Admin/Guarantee")]
     public class GuaranteeAdmin : ControllerBase
     {
         private readonly IConfiguration _config;
